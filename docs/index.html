@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Documentation</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* Cabeçalho */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+    }
+    h1 {
+      margin: 0;
+    }
+    /* Navegação */
+    nav {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+    }
+    /* Conteúdo */
+    main {
+      padding: 1em;
+    }
+    h2 {
+      margin-top: 2em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5em;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    /* Rodapé */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>API Documentation</h1>
+  </header>
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#endpoints">Endpoints</a>
+    <a href="#authentication">Authentication</a>
+    <a href="#examples">Examples</a>
+  </nav>
+  <main>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>This API provides access to...</p>
+    </section>
+    <section id="endpoints">
+      <h2>Endpoints</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Endpoint</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>/api/endpoint1</td>
+            <td>Description of endpoint 1</td>
+          </tr>
+          <tr>
+            <td>/api/endpoint2</td>
+            <td>Description of endpoint 2</td>
+          </tr>
+          <tr>
+            <td>/api/endpoint3</td>
+            <td>Description of endpoint 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="authentication">
+      <h2>Authentication</h2>
+      <p>This API requires authentication...</p>
+    </section>
+    <section id="examples">
+      <h2>Examples</h2>
+      <p>Here are some examples of how to use the API:</p>
+      <code>
+        GET /api/endpoint1 HTTP/1.1<br>
+        Host: example.com<br>
+        Authorization: Bearer xxxxxxxx
+      </code>
+    </section>
+  </main>
+  <footer>
+    &copy; 2023 API Documentation
+  </footer>
+</body>
+</html>
