@@ -57,9 +57,6 @@
 					"id": "c0f284b1-d194-4f52-a0ff-405e143db873",
 					"name": "Check Connection -> Success",
 					"originalRequest": {
-						"auth": {
-							"type": "noauth"
-						},
 						"method": "POST",
 						"header": [
 							{
